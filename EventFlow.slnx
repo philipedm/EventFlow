@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/Consumers/">
+    <Project Path="Consumer1/Consumer1.csproj" />
+    <Project Path="Consumer2/Consumer2.csproj" />
+  </Folder>
+  <Folder Name="/Contracts/">
+    <Project Path="Contract/Contract.csproj" />
+  </Folder>
+  <Folder Name="/EventBroker/">
+    <Project Path="EventMessaging/EventMessaging.csproj" />
+  </Folder>
+  <Folder Name="/Producers/">
+    <Project Path="ApiProducer1/ApiProducer1.csproj" />
+  </Folder>
+</Solution>

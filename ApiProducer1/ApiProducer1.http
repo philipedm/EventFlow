@@ -1,0 +1,6 @@
+@ApiProducer1_HostAddress = http://localhost:5044
+
+GET {{ApiProducer1_HostAddress}}/order/
+Accept: application/json
+
+###
