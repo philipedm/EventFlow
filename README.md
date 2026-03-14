@@ -81,7 +81,7 @@ Both producers and consumers reference this project to ensure
 ``` csharp
 public class OrderCreated
 {
-    public Guid OrderId { get; set; }
+    public Guid Id { get; set; }
 }
 ```
 
@@ -296,4 +296,3 @@ For production systems, consider using real message brokers such as:
 -   RabbitMQ
 -   Apache Kafka
 -   Azure Service Bus
--   MassTransit
